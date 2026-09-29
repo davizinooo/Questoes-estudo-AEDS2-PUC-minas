@@ -2,6 +2,8 @@
 
 Coleção original de exercícios de **Algoritmos e Estruturas de Dados II**, focada na **Prova 1**. Os enunciados podem ser resolvidos em **C ou Java**. As questões de ordenação indicam o algoritmo a implementar; nas estruturas lineares, implemente a estrutura indicada, em vez de usar uma coleção pronta, faça com e sem Biblioteca C <string.h>. 
 
+Caso esteja em cima da hora use como contenção de danos esses exercícios, tenha pelo menos um Sort na sua memoria para prova e foque em aprender lista sequencial e encadeada em C e Java, com isso aprendido você consegue fazer alguma coisa na prova. 
+
 ## Conteúdos
 
 - Selection sort: questões 01 e 02
