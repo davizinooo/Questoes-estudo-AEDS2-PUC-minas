@@ -21,8 +21,7 @@ Coleção original de exercícios de **Algoritmos e Estruturas de Dados II**, fo
 
 1. Leia o enunciado no PDF `AEDS_II_Prova_1_20_Questoes.pdf`.
 2. Abra `questoes/XX/pub.in` para ver a entrada pública e `questoes/XX/pub.out` para a saída exata.
-3. Execute seu programa lendo da entrada padrão e compare a saída com o arquivo correspondente. Cada caso usa `
-` e termina com uma quebra de linha.
+3. Execute seu programa lendo da entrada padrão e compare a saída com o arquivo correspondente. Cada caso termina com uma quebra de linha.
 4. Os exemplos são públicos e ilustrativos; trate também os limites e empates descritos em cada enunciado.
 
 ## Organização

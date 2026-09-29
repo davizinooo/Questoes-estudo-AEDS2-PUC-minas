@@ -1,0 +1,4 @@
+*.md text eol=lf
+*.in text eol=lf
+*.out text eol=lf
+*.pdf binary

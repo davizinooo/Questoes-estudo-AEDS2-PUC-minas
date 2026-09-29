@@ -1,0 +1,9 @@
+3
+V1;graos
+V2;madeira
+V3;areia
+4
+II V0;pecas
+IF V4;livros
+R* 2
+R* 0
