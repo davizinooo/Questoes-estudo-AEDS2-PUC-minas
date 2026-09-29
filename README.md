@@ -1,6 +1,6 @@
-# AEDS II - Prova 1: 20 questões
+# AEDS II - Prova 1: 20 questões focadas no conteúdo visto - 2026/2
 
-Coleção original de exercícios de **Algoritmos e Estruturas de Dados II**, focada na **Prova 1**. Os enunciados podem ser resolvidos em **C ou Java**. As questões de ordenação indicam o algoritmo a implementar; nas estruturas lineares, implemente a estrutura indicada, em vez de usar uma coleção pronta.
+Coleção original de exercícios de **Algoritmos e Estruturas de Dados II**, focada na **Prova 1**. Os enunciados podem ser resolvidos em **C ou Java**. As questões de ordenação indicam o algoritmo a implementar; nas estruturas lineares, implemente a estrutura indicada, em vez de usar uma coleção pronta, faça com e sem Biblioteca C <string.h>. 
 
 ## Conteúdos
 
