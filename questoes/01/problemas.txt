@@ -1,0 +1,8 @@
+1 problema: no parseCrianca, estava tentando usar o sscanf com %s, mas isso causa erro já que o %s para apenas em whitespaces e \n, ele não entende o ; como separador, então acabou que ele leu a String toda.
+
+1 solução: usar %99[^;];%99[^\n], que traduzido significa:
+(%99): ler 99 caracteres, como os nomes foram definidos com tamanho maximo de 100 e temos que reservar 1 espaço para \0 usamos 99.
+([^;]): Ler ate ;, o ^ nesse caso significa negação, então define o limite como negação e o simbolo de onde queremos parar ;.
+([^\n]): ler ate o \n, precisamos colocar pois diferentemente do %s que para por definição aqui precisamos definir, poderiamos ter usado tambem o %s no seu lugar.
+
+-----------------------------
