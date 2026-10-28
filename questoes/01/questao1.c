@@ -44,7 +44,7 @@ int compararCidades(char *s1, char *s2)
   return 0;
 }
 
-void selectionSort(Crianca *criancas, int n)
+void insertionSort(Crianca *criancas, int n)
 {
   for(int i = 1; i < n; i++) 
   {
@@ -56,6 +56,24 @@ void selectionSort(Crianca *criancas, int n)
       j--;
     }
     criancas[j + 1] = tmp;
+  }
+}
+
+void selectionSort(Crianca *criancas, int n)
+{
+  for(int i = 0; i < n - 1; i++) 
+  {
+    int menor = i;
+    for(int j = i + 1; j < n; j++) 
+    {
+        if(compararCidades(criancas[menor].bairro, criancas[j].bairro) > 0)
+      {
+        menor = j;
+      }
+    }
+    Crianca aux = criancas[i];
+    criancas[i] = criancas[menor];
+    criancas[menor] = aux;
   }
 }
 
